@@ -1,4 +1,4 @@
-name: food_customer
+name: food_delivery
 description: Customer app for the food delivery platform.
 publish_to: 'none'
 version: 1.0.0+1

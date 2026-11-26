@@ -3,7 +3,7 @@
 class AppConfig {
   static const String apiBase = String.fromEnvironment(
     'API_BASE',
-    defaultValue: 'https://YOUR-DOMAIN.com/api/v1/index.php',
+    defaultValue: 'https://satyajitmridha.com/food-production/api/v1/index.php',
   );
   static const String appName = 'Foodie';
 
@@ -11,5 +11,5 @@ class AppConfig {
   static const String tileUrl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 
   /// Must match your Android applicationId / iOS bundle id (OpenStreetMap asks apps to identify themselves).
-  static const String userAgentPackage = 'com.example.food_customer';
+  static const String userAgentPackage = 'com.example.food_delivery';
 }
